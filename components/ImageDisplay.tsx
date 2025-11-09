@@ -11,8 +11,8 @@ interface ImageDisplayProps {
 
 export const ImageDisplay: React.FC<ImageDisplayProps> = ({ label, imageUrl, isLoading = false, isDraggable = false, onDragStart }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full bg-gray-800/50 rounded-2xl border-2 border-dashed border-gray-600 p-4 transition-all duration-300">
-      <div className="w-full aspect-square rounded-lg flex items-center justify-center overflow-hidden relative bg-gray-800">
+    <div className="flex flex-col items-center justify-center w-full h-full bg-white dark:bg-gray-800/50 rounded-2xl border-2 border-dashed border-gray-300 dark:border-gray-600 p-4 transition-all duration-300">
+      <div className="w-full aspect-square rounded-lg flex items-center justify-center overflow-hidden relative bg-gray-100 dark:bg-gray-800">
         {imageUrl ? (
           <img 
             src={imageUrl} 
@@ -22,14 +22,14 @@ export const ImageDisplay: React.FC<ImageDisplayProps> = ({ label, imageUrl, isL
             onDragStart={onDragStart}
           />
         ) : (
-          <div className="text-gray-500 text-center flex flex-col items-center">
+          <div className="text-gray-400 dark:text-gray-500 text-center flex flex-col items-center">
             <PhotoIcon className="w-16 h-16 mb-2" />
             <span className="font-semibold">{label}</span>
           </div>
         )}
         {isLoading && (
           <div className="absolute inset-0 bg-black/70 flex items-center justify-center">
-            <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-purple-400"></div>
+            <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-green-400"></div>
           </div>
         )}
       </div>
