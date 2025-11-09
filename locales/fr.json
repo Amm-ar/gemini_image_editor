@@ -1,0 +1,25 @@
+{
+  "title": "Éditeur d'Image IA en Ligne",
+  "subtitle": "Modifiez vos photos avec de simples instructions textuelles en utilisant Gemini.",
+  "uploadTitle": "1. Télécharger l'Image",
+  "uploadCTA": "Cliquez pour télécharger",
+  "describeTitle": "2. Décrivez votre Modification",
+  "describePlaceholder": "ex., Ajouter un filtre rétro",
+  "tryExample": "Ou essayez un exemple :",
+  "examplePrompts": [
+    "Ajouter un filtre rétro, vintage",
+    "Rendre l'image en noir et blanc",
+    "Changer l'arrière-plan pour une plage ensoleillée",
+    "Donner au sujet principal une cape de super-héros",
+    "Supprimer la personne en arrière-plan"
+  ],
+  "generateButton": "Générer l'Image",
+  "generatingButton": "Génération...",
+  "retryButton": "Nouvel essai ({{countdown}}s)",
+  "errorPrompt": "Veuillez télécharger une image et saisir une description.",
+  "errorQuota": "Limite de quota atteinte. Nouvel essai dans {{seconds}} secondes...",
+  "errorUnknown": "Une erreur inconnue est survenue.",
+  "originalLabel": "Originale",
+  "editedLabel": "Modifiée",
+  "downloadButton": "Télécharger l'Image"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Editor de Imágenes AI en Línea",
+  "subtitle": "Edita tus fotos con simples instrucciones de texto usando Gemini.",
+  "uploadTitle": "1. Subir Imagen",
+  "uploadCTA": "Haz clic para subir",
+  "describeTitle": "2. Describe tu Edición",
+  "describePlaceholder": "ej., Añadir un filtro retro",
+  "tryExample": "O prueba un ejemplo:",
+  "examplePrompts": [
+    "Añade un filtro retro, vintage",
+    "Convertir la imagen a blanco y negro",
+    "Cambiar el fondo a una playa soleada",
+    "Darle al sujeto principal una capa de superhéroe",
+    "Eliminar a la persona en el fondo"
+  ],
+  "generateButton": "Generar Imagen",
+  "generatingButton": "Generando...",
+  "retryButton": "Reintentando ({{countdown}}s)",
+  "errorPrompt": "Por favor, sube una imagen e introduce una descripción.",
+  "errorQuota": "Límite de cuota alcanzado. Reintentando en {{seconds}} segundos...",
+  "errorUnknown": "Ocurrió un error desconocido.",
+  "originalLabel": "Original",
+  "editedLabel": "Editada",
+  "downloadButton": "Descargar Imagen"
+}

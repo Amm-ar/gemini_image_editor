@@ -1,0 +1,5 @@
+{
+  "name": "Online AI Image Editor",
+  "description": "An application for users to edit images using text prompts with the Gemini 2.5 Flash Image model. Users can upload a photo and provide instructions like 'add a retro filter' to generate an edited version.",
+  "requestFramePermissions": []
+}

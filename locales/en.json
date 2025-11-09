@@ -1,0 +1,25 @@
+{
+  "title": "Online AI Image Editor",
+  "subtitle": "Edit your photos with simple text instructions using Gemini.",
+  "uploadTitle": "1. Upload Image",
+  "uploadCTA": "Click to upload",
+  "describeTitle": "2. Describe Your Edit",
+  "describePlaceholder": "e.g., Add a retro filter",
+  "tryExample": "Or try an example:",
+  "examplePrompts": [
+    "Add a retro, vintage filter",
+    "Make the image black and white",
+    "Change the background to a sunny beach",
+    "Give the main subject a superhero cape",
+    "Remove the person in the background"
+  ],
+  "generateButton": "Generate Image",
+  "generatingButton": "Generating...",
+  "retryButton": "Retrying ({{countdown}}s)",
+  "errorPrompt": "Please upload an image and enter a prompt.",
+  "errorQuota": "Quota limit reached. Retrying in {{seconds}} seconds...",
+  "errorUnknown": "An unknown error occurred.",
+  "originalLabel": "Original",
+  "editedLabel": "Edited",
+  "downloadButton": "Download Image"
+}
